@@ -56,14 +56,13 @@ setup(
         'Programming Language :: Python :: 3.7',
     ],
     description="{{ cookiecutter.project_short_description }}",
-    install_requires=requirements,
+    long_description=LONG_DESCRIPTION,
 {%- if cookiecutter.license in license_classifiers %}
     license="{{ cookiecutter.license }}",
 {%- endif %}
-    long_description=LONG_DESCRIPTION
-    include_package_data=True,
 
     packages=PACKAGES,
+    include_package_data=True,
 
     install_requires=INSTALL_REQUIRES,
     extras_require=EXTRAS_REQUIRE,
