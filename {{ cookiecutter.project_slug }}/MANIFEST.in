@@ -1,0 +1,4 @@
+include versioneer.py
+include {{ cookiecutter.project_slug }}/_version.py
+recursive-include tests *.py
+include {{ cookiecutter.project_slug }}/_version.py
