@@ -40,9 +40,9 @@ ENTRY_POINTS = {}
 } %}
 
 setup(
-    name='{{ cookiecutter.project_slug }}',
+    name='{{ cookiecutter.project_name }}',
     version=versioneer.get_version(),
-    url='https://github.com/{{ cookiecutter.github_organization }}/{{ cookiecutter.project_slug }}',
+    url='https://github.com/{{ cookiecutter.github_organization }}/{{ cookiecutter.project_name }}',
     author="{{ cookiecutter.full_name.replace('\"', '\\\"') }}",
     author_email='{{ cookiecutter.email }}',
     classifiers=[
