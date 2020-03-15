@@ -57,6 +57,7 @@ setup(
     ],
     description="{{ cookiecutter.project_short_description }}",
     long_description=LONG_DESCRIPTION,
+    long_description_content_type='text/markdown',
 {%- if cookiecutter.license in license_classifiers %}
     license="{{ cookiecutter.license }}",
 {%- endif %}
