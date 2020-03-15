@@ -10,7 +10,7 @@
 Easiest way to install using *pip*:
 
 ```
-pip install {{ cookiecutter.project_slug }}
+pip install {{ cookiecutter.project_name }}
 ```
 
 For development installation from the git repository::
