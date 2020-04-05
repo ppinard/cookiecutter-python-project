@@ -1,6 +1,7 @@
 # {{ cookiecutter.project_name }}
 
-[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2F{{ cookiecutter.github_organization }}%2F{{ cookiecutter.project_name }}%2Fbadge&style=flat)](https://actions-badge.atrox.dev/{{ cookiecutter.github_organization }}/{{ cookiecutter.project_name }}/goto)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/{{ cookiecutter.github_organization }}/{{ cookiecutter.project_name }}/CI)
+![PyPI](https://img.shields.io/pypi/v/{{ cookiecutter.project_name }})
 
 {{ cookiecutter.project_short_description }}
 
